@@ -3,9 +3,11 @@ import importlib
 from pyrogram import Client, idle
 from X1puy.helper import join
 from X1puy.modules import ALL_MODULES
-from X1puy import clients, app, ids
+from X1puy import main as x1_main
 
 async def start_bot():
+        clients, app, ids = await x1_main(return_objects=True)
+    
     await app.start()
     print("LOG: Founded Bot token Booting..")
     for all_module in ALL_MODULES:
