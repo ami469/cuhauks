@@ -211,7 +211,7 @@ GROUP = [-1001521704453, -1001410362208]
 
 VERIFIED_USERS = [936481432, 1669178360, 1941391496, 1709495698, 1920507972, 1450303652]
 
-Owners = "@Timesisnotwaiting|@MELODY_QUEEN20|Zaid"
+Owners = "@Timesisnotwaiting|@MELODY_QUEEN20|X1puy"
 
 PORM = [
         "https://telegra.ph/file/9bcc076fd81dfe3feb291.mp4",
