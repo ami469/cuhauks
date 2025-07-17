@@ -5,11 +5,11 @@ from platform import python_version
 from pyrogram import __version__, filters, Client
 from pyrogram.types import Message
 from config import ALIVE_PIC, ALIVE_TEXT
-from Zaid import START_TIME
-from Zaid import SUDO_USER
-from Zaid.helper.PyroHelpers import ReplyCheck
-from Zaid.modules.help import add_command_help
-from Zaid.modules.bot.inline import get_readable_time
+from X1puy import START_TIME
+from X1puy import SUDO_USER
+from X1puy.helper.PyroHelpers import ReplyCheck
+from X1puy.modules.help import add_command_help
+from X1puy.modules.bot.inline import get_readable_time
 
 alive_logo = ALIVE_PIC or "https://telegra.ph/file/cc0890d0876bc18c19e05.jpg"
 
