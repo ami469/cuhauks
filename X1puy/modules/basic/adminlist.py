@@ -3,9 +3,9 @@ import html
 from pyrogram import Client, enums, filters
 from pyrogram.types import Message
 
-from Zaid.helper.basic import edit_or_reply
-from Zaid.helper.parser import mention_html, mention_markdown
-from Zaid.modules.help import *
+from X1puy.helper.basic import edit_or_reply
+from X1puy.helper.parser import mention_html, mention_markdown
+from X1puy.modules.help import *
 
 
 @Client.on_message(filters.me & filters.command(["admins", "adminlist"], "."))
