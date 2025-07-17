@@ -1,1 +1,1 @@
-from Zaid.modules.help.help import *
+from X1puy.modules.help.help import *
