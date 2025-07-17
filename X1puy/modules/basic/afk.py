@@ -5,8 +5,8 @@ import humanize
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-from Zaid.helper.PyroHelpers import GetChatID, ReplyCheck
-from Zaid.modules.help import add_command_help
+from X1puy.helper.PyroHelpers import GetChatID, ReplyCheck
+from X1puy.modules.help import add_command_help
 
 AFK = False
 AFK_REASON = ""
