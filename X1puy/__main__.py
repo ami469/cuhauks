@@ -6,8 +6,7 @@ from X1puy.modules import ALL_MODULES
 from X1puy import main as x1_main
 
 async def start_bot():
-    clients, app, ids = await 
-x1_main(return_objects=True)
+    clients, app, ids = await x1_main(return_objects=True)
 
     await app.start()
     print("LOG: Founded Bot token Booting..")
