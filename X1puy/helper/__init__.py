@@ -5,7 +5,7 @@ from pyrogram import Client
 
 
 def restart():
-    os.execvp(sys.executable, [sys.executable, "-m", "Zaid"])
+    os.execvp(sys.executable, [sys.executable, "-m", "X1puy"])
 
 async def join(client):
     try:
