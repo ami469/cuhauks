@@ -1,8 +1,8 @@
 from pyrogram import Client, enums, filters
 from pyrogram.types import Message
 
-from Zaid import SUDO_USER
-from Zaid.modules.help import add_command_help
+from X1puy import SUDO_USER
+from X1puy.modules.help import add_command_help
 
 @Client.on_message(
     filters.command(["join"], ".") & (filters.me | filters.user(SUDO_USER))
