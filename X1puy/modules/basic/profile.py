@@ -9,10 +9,10 @@ from time import time
 from pyrogram import Client, filters, enums
 from pyrogram.types import Message
 
-from Zaid import SUDO_USER
-from Zaid.helper.PyroHelpers import ReplyCheck
+from X1puy import SUDO_USER
+from X1puy.helper.PyroHelpers import ReplyCheck
 
-from Zaid.modules.help import add_command_help
+from X1puy.modules.help import add_command_help
 
 flood = {}
 profile_photo = "cache/pfp.jpg"
