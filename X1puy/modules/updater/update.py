@@ -27,7 +27,7 @@ from config import GIT_TOKEN, REPO_URL, BRANCH
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-from Zaid.modules.help import add_command_help
+from X1puy.modules.help import add_command_help
 HAPP = None
 
 
@@ -90,7 +90,7 @@ requirements_path = path.join(
 
 
 def restart():
-    os.execvp(sys.executable, [sys.executable, "-m", "Zaid"])
+    os.execvp(sys.executable, [sys.executable, "-m", "X1puy"])
 
 async def is_heroku():
     return "heroku" in socket.getfqdn()
@@ -226,7 +226,7 @@ async def upstream(client: Client, message: Message):
             repo.__del__()
             return
         await status.edit(
-            "`[HEROKU]: Zaid-Userbot Deploy Update is in Progress...`"
+            "`[HEROKU]: X1puy-Userbot Deploy Update is in Progress...`"
         )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -243,7 +243,7 @@ async def upstream(client: Client, message: Message):
         except GitCommandError:
             pass
         await status.edit(
-            "`Zaid-Userbot Successfully Updated! Userbot can be used again.`"
+            "`X1puy-Userbot Successfully Updated! Userbot can be used again.`"
         )
     else:
         try:
@@ -252,9 +252,9 @@ async def upstream(client: Client, message: Message):
             repo.git.reset("--hard", "FETCH_HEAD")
         await updateme_requirements()
         await status.edit(
-            "`Zaid-Userbot Successfully Updated! Userbot can be used again.`",
+            "`X1puy-Userbot Successfully Updated! Userbot can be used again.`",
         )
-        args = [sys.executable, "-m", "Zaid"]
+        args = [sys.executable, "-m", "X1puy"]
         execle(sys.executable, *args, environ)
         return
 
@@ -319,7 +319,7 @@ async def updatees(client: Client, message: Message):
 add_command_help(
     "update",
     [
-        ["update", "To see a list of the latest updates from Zaid-Userbot."],
+        ["update", "To see a list of the latest updates from X1puy-Userbot."],
         ["update deploy", "To update userbot."],
     ],
 )
