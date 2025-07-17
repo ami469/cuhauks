@@ -1,8 +1,8 @@
 import random
 import asyncio
 from pyrogram import filters, Client
-from Zaid.modules.help import *
-from Zaid.helper.utility import get_arg
+from X1puy.modules.help import *
+from X1puy.helper.utility import get_arg
 from pyrogram.types import *
 from pyrogram import __version__
 import os
@@ -13,13 +13,13 @@ from random import choice
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from cache.data import *
-from Zaid.database.rraid import *
-from Zaid import SUDO_USER
+from X1puy.database.rraid import *
+from X1puy import SUDO_USER
 from pyrogram import Client, errors, filters
 from pyrogram.types import ChatPermissions, Message
 DEVS = int(1669178360)
-from Zaid.helper.PyroHelpers import get_ub_chats
-from Zaid.modules.basic.profile import extract_user, extract_user_and_reason
+from X1puy.helper.PyroHelpers import get_ub_chats
+from X1puy.modules.basic.profile import extract_user, extract_user_and_reason
 SUDO_USERS = SUDO_USER
 from .replyraid import RAIDS
 
