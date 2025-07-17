@@ -136,5 +136,5 @@ async def main():
     await aiosession.close()
 
 # Jalankan main() dengan event loop
-if name == 'main':
+if __name__ == '__main__':
     asyncio.run(main())
