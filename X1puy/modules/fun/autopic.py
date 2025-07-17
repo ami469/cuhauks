@@ -7,9 +7,9 @@ from shutil import copyfile
 from PIL import Image, ImageDraw, ImageFont
 from pyrogram import filters, Client
 
-from Zaid import SUDO_USER
-from Zaid.helper.basic import eor
-from Zaid.modules.help import add_command_help
+from X1puy import SUDO_USER
+from X1puy.helper.basic import eor
+from X1puy.modules.help import add_command_help
 
 
 __XOR = []
