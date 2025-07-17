@@ -1,4 +1,4 @@
-from Zaid.modules.help import add_command_help
+from X1puy.modules.help import add_command_help
 import asyncio
 import requests
 import aiohttp
