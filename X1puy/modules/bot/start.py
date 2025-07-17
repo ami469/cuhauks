@@ -1,4 +1,4 @@
-from Zaid import app, API_ID, API_HASH
+from X1puy import app, API_ID, API_HASH
 from config import OWNER_ID, ALIVE_PIC
 from pyrogram import filters
 import os
@@ -25,7 +25,7 @@ async def hello(client: app, message):
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_photo(message.chat.id, ALIVE_PIC, caption=PHONE_NUMBER_TEXT, reply_markup=reply_markup)
 
-# © By Itz-Zaid Your motherfucker if uh Don't gives credits.
+# © X1PUY ITS PRIDE FUCK
 @app.on_message(filters.user(OWNER_ID) & filters.command("clone"))
 async def clone(bot: app, msg: Message):
     chat = msg.chat
@@ -35,7 +35,7 @@ async def clone(bot: app, msg: Message):
     try:
         await text.edit("Booting Your Client")
                    # change this Directry according to ur repo
-        client = Client(name="Melody", api_id=API_ID, api_hash=API_HASH, session_string=phone, plugins=dict(root="Zaid/modules"))
+        client = Client(name="Melody", api_id=API_ID, api_hash=API_HASH, session_string=phone, plugins=dict(root="X1puy/modules"))
         await client.start()
         user = await client.get_me()
         await msg.reply(f"Your Client Has Been Successfully As {user.first_name} ✅.")
