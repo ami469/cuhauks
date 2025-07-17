@@ -4,11 +4,11 @@ from io import BytesIO
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from Zaid import aiosession
+from X1puy import aiosession
 
-from Zaid.helper.PyroHelpers import ReplyCheck
+from X1puy.helper.PyroHelpers import ReplyCheck
 
-from Zaid.modules.help import add_command_help
+from X1puy.modules.help import add_command_help
 
 
 async def make_carbon(code):
