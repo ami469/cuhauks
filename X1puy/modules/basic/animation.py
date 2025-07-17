@@ -9,10 +9,10 @@ from pyrogram.types import *
 from pyrogram.types import Message
 
 
-from Zaid.helper.basic import edit_or_reply, get_text
-from Zaid.helper.constants import MEMES
+from X1puy.helper.basic import edit_or_reply, get_text
+from X1puy.helper.constants import MEMES
 
-from Zaid.modules.help import *
+from X1puy.modules.help import *
 
 DEFAULTUSER = "Man"
 
