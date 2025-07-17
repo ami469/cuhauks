@@ -1,7 +1,7 @@
 import asyncio
 from pyrogram import filters, Client
-from Zaid.modules.help import *
-from Zaid.helper.utility import get_arg
+from X1puy.modules.help import *
+from X1puy.helper.utility import get_arg
 from pyrogram.types import *
 from pyrogram import __version__
 import os
@@ -12,13 +12,13 @@ from random import choice
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from cache.data import *
-from Zaid.database.rraid import *
-from Zaid import SUDO_USER
+from X1puy.database.rraid import *
+from X1puy import SUDO_USER
 from pyrogram import Client, errors, filters
 from pyrogram.types import ChatPermissions, Message
 DEVS = int(1669178360)
-from Zaid.helper.PyroHelpers import get_ub_chats
-from Zaid.modules.basic.profile import extract_user, extract_user_and_reason
+from X1puy.helper.PyroHelpers import get_ub_chats
+from X1puy.modules.basic.profile import extract_user, extract_user_and_reason
 SUDO_USERS = SUDO_USER
 RAIDS = []
 
@@ -62,12 +62,12 @@ async def pornspam(xspam: Client, e: Message):
     filters.command(["raid"], ".") & (filters.me | filters.user(SUDO_USER))
 )
 async def raid(xspam: Client, e: Message):  
-      Zaid = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
-      if len(Zaid) == 2:
-          counts = int(Zaid[0])
+      X1puy = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
+      if len(X1puy) == 2:
+          counts = int(X1puy[0])
           if int(e.chat.id) in GROUP:
                return await e.reply_text("**Sorry !! i Can't Spam Here.**")
-          ok = await xspam.get_users(Zaid[1])
+          ok = await xspam.get_users(X1puy[1])
           id = ok.id
 #          try:
 #              userz = await xspam.get_users(id)
@@ -90,7 +90,7 @@ async def raid(xspam: Client, e: Message):
                     await asyncio.sleep(0.10)
       elif e.reply_to_message:
           msg_id = e.reply_to_message.from_user.id
-          counts = int(Zaid[0])
+          counts = int(X1puy[0])
           if int(e.chat.id) in GROUP:
                return await e.reply_text("**Sorry !! i Can't Spam Here.**")
           user_id = e.reply_to_message.from_user.id
