@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 
-from Zaid.modules.help import add_command_help
+from X1puy.modules.help import add_command_help
 
 spam_chats = []
 
