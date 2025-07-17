@@ -10,7 +10,7 @@ import re
 
 from pyrogram.types import Message
 from httpx import AsyncClient
-from Zaid.helper.utility import get_arg
+from X1puy.helper.utility import get_arg
 
 
 # Pastebins
